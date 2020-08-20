@@ -1,8 +1,5 @@
-
-
-// -- //
 var noon = 12;
-var evening = 18; // 6PM
+var evening = 6; // 6PM
 var wakeupTime = 7; // 7AM
 var lunchTime = 12; // 12PM
 var partyTime = 17; // 5PM
@@ -19,8 +16,9 @@ var updateClock = function()
 // ADD NEW VARIABLES AND FUNCTION CODES HERE //
 
 // MESSAGE TEXT FOR TIME OUTPUT HERE //
-var messageText;
+
 var whatTimeIsItJS = document.getElementById('timeEvent');
+var messageText;
 
 // IMAGE FOR TIME OUTPUT HERE //
 var lolcat = document.getElementById('lolcat');
@@ -67,17 +65,10 @@ whatTimeIsItJS.innerText = messageText;
 // TIME IMAGE CALL OUT HERE //
 lolcat.src = image;
 
-// ---------- //
-
-
-// ------- //
  
 showCurrentTime();
  
 };
-
-
-
 
 // CLOCK TIME KEEPERS //
 var showCurrentTime = function()
@@ -122,7 +113,7 @@ var showCurrentTime = function()
 };
 
 
-showCurrentTime(); 
+ 
 updateClock();
 var oneSecond = 1000;
 setInterval( updateClock, oneSecond);
