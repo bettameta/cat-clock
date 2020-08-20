@@ -5,8 +5,8 @@ var noon = 12;
 var evening = 18; // 6PM
 var wakeupTime = 6; // 9AM
 var lunchTime = 12; // 12PM
-var partyTime = 17; // 5PM
-var napTime = lunchTime + 2; // 2PM
+var partyTime = 1; // 5PM
+var napTime = lunchTime + 5; // 2PM
 
 // ADD NEW VARIABLES AND FUNCTION CODES HERE //
 
@@ -26,7 +26,7 @@ if (time == partyTime){
 
 } else if (time == napTime) {	
 
-    image = "/img/group-nap.jpg";
+    image = "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat3.jpg";
     messageText = "IT'S NAP TIME...";
   
 } else if (time == lunchTime) {	
