@@ -38,7 +38,7 @@ if (time == partyTime){
     messageText = "IT'S NAP TIME...";
   
 } else if (time == lunchTime) {	
-    image = "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat2.jpg";
+    image = "https://i.postimg.cc/HLkWX6MK/kitty-lunch.jpg";
     messageText = "IT'S NOM NOM NOM TIME!!";
   
 } else if (time == wakeupTime) {	
