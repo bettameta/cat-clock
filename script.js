@@ -16,7 +16,7 @@ var whatTimeIsItJS = document.getElementById('timeEvent');
 
 // IMAGE FOR TIME OUTPUT HERE //
 var lolcat = document.getElementById('lolcat');
-var image = "/img/frodo-main.jpg";
+var image = "https://i.postimg.cc/Zn0Sn507/frodo-main.jpg";
 
 // START TIMED FUNCTIONS HERE //
 if (time == partyTime){
@@ -26,7 +26,7 @@ if (time == partyTime){
 
 } else if (time == napTime) {	
 
-    image = "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/cat3.jpg";
+    image = "https://i.postimg.cc/Y0wbhXXv/frodo-nap.jpg";
     messageText = "IT'S NAP TIME...";
   
 } else if (time == lunchTime) {	
@@ -34,7 +34,7 @@ if (time == partyTime){
     messageText = "IT'S NOM NOM NOM TIME!!";
   
 } else if (time == wakeupTime) {	
-    image = "/img/group-wakeup.jpg";
+    image = "https://i.postimg.cc/MTpk3p06/group-wakeup.jpg";
     messageText = "IT'S TIME TO GET UP.";
   
 } else if (time < noon) {
@@ -55,3 +55,5 @@ whatTimeIsItJS.innerText = messageText;
 
 // TIME IMAGE CALL OUT HERE //
 lolcat.src = image;
+
+// CLOCK TIME KEEPERS //
