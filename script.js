@@ -27,7 +27,7 @@ var image = "https://i.postimg.cc/Zn0Sn507/frodo-main.jpg";
 // START TIMED FUNCTIONS HERE //
 if (time == partyTime){
 	
-    image = "https://www.zarias.com/wp-content/uploads/2016/02/71010216-funny-cat-pictures.jpg";
+    image = "https://i.postimg.cc/fR9TbmKG/partee-cat.jpg";
     messageText = "IT'S PARTEE TIME!!";
 
 } else if (time == napTime) {	
