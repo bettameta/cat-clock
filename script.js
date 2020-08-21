@@ -24,6 +24,10 @@ var messageText;
 var lolcat = document.getElementById('lolcat');
 var image = "https://i.postimg.cc/Zn0Sn507/frodo-main.jpg";
 
+// PARTY TIME BUTTON VARIABLE HERE //
+var isPartyTime = false;
+
+
 // START TIMED FUNCTIONS HERE //
 if (time == partyTime){
 	
@@ -112,8 +116,24 @@ var showCurrentTime = function()
     clock.innerText = clockTime;
 };
 
-
- 
 updateClock();
 var oneSecond = 1000;
 setInterval( updateClock, oneSecond);
+
+    var isPartyTime = false;
+    
+    var partyEvent = function() {
+    
+    if (isPartyTime === false) {
+        isPartyTime = true;
+        time = partyTime;
+        // text in the button should read "Party Over"
+        // color of the button should be "#0A8DAB" (bonus!)
+    }
+    else {
+        isPartyTime = false;
+        time = new Date().getHours();
+        // text in the button should read "PARTY TIME!"
+        // color of the button should be "#222" (bonus!)
+    }
+    };
