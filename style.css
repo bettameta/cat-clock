@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to bottom, #73bacf, #1a3c44);;
+  background: #93d1e4;
 }
 .page {
   width: 90%;
@@ -8,7 +8,7 @@ body {
   text-align: center;
   background-color: #93d1e4;
   border-radius: 10px;
-  border: 1px solid #195858;
+  
   
 
 }
