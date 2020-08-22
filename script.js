@@ -149,9 +149,40 @@ var partyEvent = function() {
 
     }
  };  
-    
- // FUNCTION RUNNER //
-// PARTY BUTTON //
- partyTimeButton.addEventListener("click", partyEvent);
 
+ // TIME SELECTOR VARIABLES //
+ // WAKE UP //
+    var wakeUpTimeSelector = document.getElementById("wakeUpTimeSelector");
+ // LUNCH //
+    var lunchTimeSelector = document.getElementById("lunchTimeSelector");
+ // NAP //
+    var napTimeSelector = document.getElementById("napTimeSelector");
+
+ // FUNCTION TIME SELECTORS //
+
+    var wakeUpEvent = function()
+    {
+        wakeUpTime = wakeUpTimeSelector.value;
+    };
+
+    var lunchEvent = function()
+    {
+        lunchTime = lunchTimeSelector.value;
+    };
+
+    var napEvent = function()
+    {
+        napTime = napTimeSelector.value;
+    };
+
+ // EVENT LISTENERS FOR FUNCTIONS //
+ // PARTY BUTTON //
+    partyTimeButton.addEventListener("click", partyEvent);
+ // ----------------- //
+ // SET WAKE UP //
+    wakeUpTimeSelector.addEventListener("change", wakeUpEvent);
+ // SET LUNCH //
+    lunchTimeSelector.addEventListener("change", lunchEvent);
+ // SET NAP //
+    napTimeSelector.addEventListener("change", napEvent);
     
