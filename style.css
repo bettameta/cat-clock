@@ -1,13 +1,14 @@
 body {
-  background-color: #f16059;
+  background: linear-gradient(to bottom, #7bbccf, #25535f);;
 }
 .page {
-  width: 80%;
+  width: 90%;
   max-width: 960px;
   margin: 50px auto;
   text-align: center;
-  background-color: #f16059;
+  background-color: #9dd2e2;
   border-radius: 5px;
+
 }
 body {
   font: 14px/26px 'Bungee', Helvetica, Arial, sans-serif;
@@ -49,13 +50,13 @@ blockquote:after { content: '"'; }
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   border-radius: 10px;
-  border:10px solid #222;
+  border:10px solid #8422e0;
 }
 #wakeUpTimeSelector, #lunchTimeSelector, #napTimeSelector {
   padding: 10px 0;
 }
 #partyTimeButton {
-  background-color: #222;
+  background-color: #cf39dd;
   width: 300px;
   font-family: 'Bungee', cursive;
   font-size: 18px;

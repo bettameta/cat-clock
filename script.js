@@ -1,31 +1,30 @@
+var time = new Date().getHours();
 var noon = 12;
-var evening = 6; // 6PM
+var evening = 18; // 6PM
 var wakeupTime = 7; // 7AM
 var lunchTime = 12; // 12PM
 var partyTime = 17; // 5PM
 var napTime = lunchTime + 3; // 3PM
 
+// PARTY TIME BUTTON VARIABLE HERE //
+// ******************************************* SHOULD THIS BE HIGHER UP? //
+var isPartyTime = false;
+
 // NEW FUNCTION & CALLING IT //
 // CODE TO GET STORE REAL TIME //
-var time = new Date().getHours();
  
 var updateClock = function() 
 {
- 
 // the rest of the LOLCat code you wrote up until this step
 // ADD NEW VARIABLES AND FUNCTION CODES HERE //
 
 // MESSAGE TEXT FOR TIME OUTPUT HERE //
-
 var whatTimeIsItJS = document.getElementById('timeEvent');
 var messageText;
 
 // IMAGE FOR TIME OUTPUT HERE //
 var lolcat = document.getElementById('lolcat');
 var image = "https://i.postimg.cc/Zn0Sn507/frodo-main.jpg";
-
-// PARTY TIME BUTTON VARIABLE HERE //
-var isPartyTime = false;
 
 
 // START TIMED FUNCTIONS HERE //
@@ -120,20 +119,39 @@ updateClock();
 var oneSecond = 1000;
 setInterval( updateClock, oneSecond);
 
-    var isPartyTime = false;
-    
-    var partyEvent = function() {
-    
+// ------------------------------------- //
+
+// *********************ADDED THEN REMOVED PARTYTIMEBUTTON LINK TO HTML | to fix error in validator --- did not work! //
+// var partyTimeButton = document.getElementById("partytimeButton");//
+// BUTTON FUNCTION //
+var partyEvent = function() {
+   
     if (isPartyTime === false) {
-        isPartyTime = true;
-        time = partyTime;
-        // text in the button should read "Party Over"
-        // color of the button should be "#0A8DAB" (bonus!)
+       isPartyTime = true;
+       time = partyTime;
+
+       // text in the button should read "Party Over"
+       partyTimeButton.innerText="Party Over"; //* IS THIS WRONG */
+
+       // color of the button should be "#e69447" (bonus!)
+       partyTimeButton.style.backgroundColor = "#e69447";  
+           
     }
+
     else {
-        isPartyTime = false;
-        time = new Date().getHours();
-        // text in the button should read "PARTY TIME!"
-        // color of the button should be "#222" (bonus!)
+       isPartyTime = false;
+       time = new Date().getHours();
+
+       // text in the button should read "PARTY TIME!"
+       partyTimeButton.innerText = "Party Time!"; //* IS THIS WRONG */
+       // color of the button should be "#cf39dd" (bonus!)
+       partyTimeButton.style.backgroundColor = "#cf39dd";
+
     }
-    };
+ };  
+    
+ // FUNCTION RUNNER //
+// PARTY BUTTON //
+ partyTimeButton.addEventListener("click", partyEvent);
+
+    
