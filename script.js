@@ -162,7 +162,7 @@ var partyEvent = function() {
 
     var wakeUpEvent = function()
     {
-        wakeUpTime = wakeUpTimeSelector.value;
+        wakeupTime = wakeUpTimeSelector.value;
     };
 
     var lunchEvent = function()

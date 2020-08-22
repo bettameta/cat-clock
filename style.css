@@ -1,13 +1,15 @@
 body {
-  background: linear-gradient(to bottom, #7bbccf, #25535f);;
+  background: linear-gradient(to bottom, #73bacf, #1a3c44);;
 }
 .page {
   width: 90%;
   max-width: 960px;
   margin: 50px auto;
   text-align: center;
-  background-color: #9dd2e2;
-  border-radius: 5px;
+  background-color: #93d1e4;
+  border-radius: 10px;
+  border: 1px solid #195858;
+  
 
 }
 body {
@@ -50,10 +52,12 @@ blockquote:after { content: '"'; }
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   border-radius: 10px;
-  border:10px solid #8422e0;
+  border:7px solid #8422e0;
+  box-shadow: 0 5px 10px 0 #00000033, 0 6px 20px 0 #00000030;
 }
 #wakeUpTimeSelector, #lunchTimeSelector, #napTimeSelector {
   padding: 10px 0;
+  background-color: #ddd77f;
 }
 #partyTimeButton {
   background-color: #cf39dd;
