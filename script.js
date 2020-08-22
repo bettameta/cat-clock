@@ -121,8 +121,9 @@ setInterval( updateClock, oneSecond);
 
 // ------------------------------------- //
 
-// *********************ADDED THEN REMOVED PARTYTIMEBUTTON LINK TO HTML | to fix error in validator --- did not work! //
-// var partyTimeButton = document.getElementById("partytimeButton");//
+// PARTYTIMEBUTTON LINK TO HTML  //
+var partyTimeButton = document.getElementById("partyTimeButton");
+
 // BUTTON FUNCTION //
 var partyEvent = function() {
    
