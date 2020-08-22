@@ -7,7 +7,6 @@ var partyTime = 17; // 5PM
 var napTime = lunchTime + 3; // 3PM
 
 // PARTY TIME BUTTON VARIABLE HERE //
-// ******************************************* SHOULD THIS BE HIGHER UP? //
 var isPartyTime = false;
 
 // NEW FUNCTION & CALLING IT //
