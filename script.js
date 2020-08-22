@@ -143,7 +143,7 @@ var partyEvent = function() {
        time = new Date().getHours();
 
        // text in the button should read "PARTY TIME!"
-       partyTimeButton.innerText = "Party Time!"; //* IS THIS WRONG */
+       partyTimeButton.innerText = "Instant Party Time!"; //* IS THIS WRONG */
        // color of the button should be "#cf39dd" (bonus!)
        partyTimeButton.style.backgroundColor = "#cf39dd";
 
