@@ -137,7 +137,7 @@ var partyEvent = function() {
        time = partyTime;
 
        // text in the button should read "Party Over"
-       partyTimeButton.innerText="Party Over"; //* IS THIS WRONG */
+       partyTimeButton.innerText="Party Over Button!"; //* IS THIS WRONG */
 
        // color of the button should be "#e69447" (bonus!)
        partyTimeButton.style.backgroundColor = "#e69447";  
