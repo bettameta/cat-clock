@@ -2,19 +2,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Tuxedo Clock</title>
+    <title>Tuxedo Time</title>
 
     <link href="https://fonts.googleapis.com/css?family=Bungee|Bungee+Shade|Covered+By+Your+Grace" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
-    
-    
+    <link rel="icon" href="img/frodo-main.jpg"> 
+    <!-- JAVASCRIPT LINK-->
+    <script src="script.js" defer></script>
+
   </head>
     <body>
       <div class="page">
         <header>
           <!-- CAT CLOCK -->
-          <h1>Tuxedo Clock</h1>
+          <h1>Tuxedo Time</h1>
         </header>
 
           <h4>
@@ -24,13 +26,13 @@
           </h4>
 
         <!-- TIME IMAGE ID -->
-        <img id="lolcat" src="https://i.postimg.cc/8kdrh6hL/oops-bug.jpg" alt="lolcat">
+        <img id="tuxedocats" src="https://i.postimg.cc/8kdrh6hL/oops-bug.jpg" alt="tuxedocats">
       
         <!-- TIME TEXT ID-->
         <blockquote id="timeEvent">Uh oh, gotta go bug hunting!</blockquote>
 
           <!-- TIME VALUES -->
-          set Wake Up Time
+          set Wake Up Time<br>
           <select id="wakeUpTimeSelector">
             <option value="1">1 AM - 2AM</option>
             <option value="2">2 AM - 3AM</option>
@@ -58,7 +60,7 @@
             <option value="24">12 AM - 1AM</option>
           </select>
           <br>
-          set Lunch Time
+          set Lunch Time<br>
             <select id="lunchTimeSelector">
               <option value="1">1 AM - 2AM</option>
               <option value="2">2 AM - 3AM</option>
@@ -86,7 +88,7 @@
               <option value="24">12 AM - 1AM</option>
             </select>
           <br>
-          set Nap Time
+          set Nap Time<br>
           <select id="napTimeSelector">
             <option value="1">1 AM - 2AM</option>
             <option value="2">2 AM - 3AM</option>
@@ -114,7 +116,7 @@
             <option value="24">12 AM - 1AM</option>
             </select>
           <br>
-          set Dinner Time
+          set Dinner Time<br>
           <select id="dinnerTimeSelector">
             <option value="1">1 AM - 2AM</option>
             <option value="2">2 AM - 3AM</option>
@@ -144,16 +146,14 @@
             <br>
 
         <!-- BUTTON ID -->
-        <button id="partyTimeButton">Instant Party Time!</button>
+        <button id="partyTimeButton">Instant Party Button!</button>
 
         <!-- FOOTER -->
         <footer>
-          <p>&copy; Tuxedo Time 2020</p>
+          <p>&copy;Tuxedo Time | 2020</p>
         </footer>
 
       </div>
 
-      <!-- JAVASCRIPT LINK-->
-      <script type="text/javascript" src="script.js"></script>
     </body>
 </html>

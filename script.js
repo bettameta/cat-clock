@@ -1,4 +1,3 @@
-var time = new Date().getHours();
 var noon = 12;
 var evening = 18; // 6PM
 var wakeupTime = 7; // 7AM
@@ -12,10 +11,11 @@ var isPartyTime = false;
 
 // NEW FUNCTION & CALLING IT //
 // CODE TO GET STORE REAL TIME //
- 
+var time = new Date().getHours();
+
 var updateClock = function() 
 {
-// the rest of the LOLCat code you wrote up until this step
+// the rest of the tuxedocats code you wrote up until this step
 // ADD NEW VARIABLES AND FUNCTION CODES HERE //
 
 // MESSAGE TEXT FOR TIME OUTPUT HERE //
@@ -23,7 +23,7 @@ var whatTimeIsItJS = document.getElementById('timeEvent');
 var messageText;
 
 // IMAGE FOR TIME OUTPUT HERE //
-var lolcat = document.getElementById('lolcat');
+var tuxedocats = document.getElementById('tuxedocats');
 var image = "https://i.postimg.cc/Zn0Sn507/frodo-main.jpg";
 
 
@@ -71,8 +71,7 @@ if (time == partyTime){
 whatTimeIsItJS.innerText = messageText;
 
 // TIME IMAGE CALL OUT HERE //
-lolcat.src = image;
-
+tuxedocats.src = image;
  
 showCurrentTime();
  
@@ -137,7 +136,7 @@ var partyEvent = function() {
        time = partyTime;
 
        // text in the button should read "Party Over"
-       partyTimeButton.innerText="Party Over"; //* IS THIS WRONG */
+       partyTimeButton.innerText="Party Over Button"; 
 
        // color of the button should be "#e69447" (bonus!)
        partyTimeButton.style.backgroundColor = "#e69447";  
@@ -149,9 +148,9 @@ var partyEvent = function() {
        time = new Date().getHours();
 
        // text in the button should read "PARTY TIME!"
-       partyTimeButton.innerText = "Instant Party Time!"; //* IS THIS WRONG */
+       partyTimeButton.innerText = "Instant Party Button!";
        // color of the button should be "#cf39dd" (bonus!)
-       partyTimeButton.style.backgroundColor = "#cf39dd";
+       partyTimeButton.style.backgroundColor = "#832dd3";
 
     }
  };  
