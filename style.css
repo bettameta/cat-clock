@@ -18,13 +18,15 @@ body {
   padding: 0px;
   text-transform: uppercase;
   background-color: #3bb8df;
-
   background-image: url("https://i.postimg.cc/bYbHjgJf/flowers.png");
+  text-transform: uppercase;
 }
+
 header{
   font-size: 24px;
   line-height: 48px;
 }
+
 h4 {
   font-size: 21px;
   font-family: 'Bungee', cursive;
@@ -49,7 +51,7 @@ blockquote {
 blockquote:before { content: '"'; }
 blockquote:after { content: '"'; }
 
-#tuxedocats {
+#tuxedocat{
   margin: 0 auto;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
@@ -83,4 +85,5 @@ blockquote:after { content: '"'; }
 footer p {
   text-transform: uppercase;
   font-size: 12px;
+  margin: 40px 0 10px;
 }
