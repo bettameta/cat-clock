@@ -24,31 +24,31 @@ var messageText;
 
 // IMAGE FOR TIME OUTPUT HERE //
 var tuxedoCat = document.getElementById('tuxedocat');
-var image = "https://i.postimg.cc/Zn0Sn507/frodo-main.jpg";
+var image = "img/frodo-main.jpg";
 
 
 // START TIMED FUNCTIONS HERE //
 if (time == partyTime){
 	
-    image = "https://i.postimg.cc/fR9TbmKG/partee-cat.jpg";
+    image = "img/partee-cat.jpg";
     messageText = "IT'S PARTEE TIME!!";
 
 } else if (time == napTime) {	
 
-    image = "https://i.postimg.cc/Y0wbhXXv/frodo-nap.jpg";
+    image = "img/frodo-nap.jpg";
     messageText = "IT'S NAP TIME...";
   
 } else if (time == lunchTime) {	
-    image = "https://i.postimg.cc/HLkWX6MK/kitty-lunch.jpg";
+    image = "img/oops-bug.jpg";
     messageText = "IT'S NOM NOM TIME!!";
   
 } else if (time == wakeupTime) {	
-    image = "https://i.postimg.cc/MTpk3p06/group-wakeup.jpg";
+    image = "img/group-wakeup.jpg";
     messageText = "IT'S TIME TO GET UP!!";
 
 }   else if (time == dinnerTime) {
 
-    image = "https://i.postimg.cc/XYnQ3qnL/frodo-dinner.jpg";
+    image = "img/frodo-dinner.jpg";
     messageText = "IT'S TIME FOR DINNER!!";
   
 } else if (time < noon) {
